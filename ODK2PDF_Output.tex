@@ -1,0 +1,4822 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage{parskip}%
+\usepackage[margin=1in]{geometry}%
+%
+%
+%
+\begin{document}%
+\normalsize%
+\textbf{Id10002: \newline%
+}%
+Question: Is this a region of high HIV/AIDS prevalence?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{high\newline%
+ low\newline%
+ veryl\newline%
+}%
+\end{itemize}%
+\textbf{Id10003: \newline%
+}%
+Question: Is this a region of high malaria prevalence?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{high\newline%
+ low\newline%
+ veryl\newline%
+}%
+\end{itemize}%
+\textbf{Id10004: \newline%
+}%
+Question: During which season did (s)he die?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{wet\newline%
+ dry\newline%
+ DK\newline%
+}%
+\end{itemize}%
+\textbf{Id10007: \newline%
+}%
+Question: What is the name of VA respondent?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10008: \newline%
+}%
+Question: What is the respondent's relationship to the deceased?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{parent\newline%
+ child\newline%
+ other\newline%
+ family\_member\newline%
+ friend\newline%
+ health\_worker\newline%
+ public\_official\newline%
+ another\_relationship\newline%
+}%
+\end{itemize}%
+\textbf{Id10009: \newline%
+}%
+Question: Did the respondent live with the deceased in the period leading to her/his death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10010: \newline%
+}%
+Question: Name of VA interviewer\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10011: \newline%
+}%
+Question: Time at start of interview\newline%
+%
+\begin{itemize}%
+\item%
+\textit{time\newline%
+}%
+\end{itemize}%
+\textbf{Id10012: \newline%
+}%
+Question: Date of interview\newline%
+%
+\begin{itemize}%
+\item%
+\textit{date\newline%
+}%
+\end{itemize}%
+\textbf{Id10013: \newline%
+}%
+Question: Did the respondent give consent?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+}%
+\end{itemize}%
+\textbf{Id10017: \newline%
+}%
+Question: What was the first or given name(s) of the deceased?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10018: \newline%
+}%
+Question: What was the surname (or family name)\newline%
+ of the deceased?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10019: \newline%
+}%
+Question: What was the sex of the deceased?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{female\newline%
+ male\newline%
+}%
+\end{itemize}%
+\textbf{Id10020: \newline%
+}%
+Question: Is the date of birth known?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+}%
+\end{itemize}%
+\textbf{Id10021: selected(\$\{Id10020\}, 'yes')\newline%
+}%
+Question: When was the deceased born?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{date\newline%
+}%
+\end{itemize}%
+\textbf{Id10022: \newline%
+}%
+Question: Is the date of death known?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+}%
+\end{itemize}%
+\textbf{Id10023: selected(\$\{Id10022\}, 'yes')\newline%
+}%
+Question: When did (s)he die?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{date\newline%
+}%
+\end{itemize}%
+\textbf{Id10024: selected(\$\{Id10022\}, 'no') or selected(\$\{Id10022\}, 'dk')\newline%
+}%
+Question: Please indicate the year of death.\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{ageInDays: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{ageInYears: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{ageInYearsRemain: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{ageInMonths: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{ageInMonthsRemain: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{isNeonatal1: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{isChild1: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{isAdult1: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{displayAgeNeonate: \$\{isNeonatal1\} = '1'\newline%
+}%
+Question: NEONATE was \$\{ageInDays\} days old.\newline%
+%
+\begin{itemize}%
+\item%
+\textit{note\newline%
+}%
+\end{itemize}%
+\textbf{displayAgeChild: \$\{isChild1\} = '1'\newline%
+}%
+Question: CHILD was \$\{ageInYears\} years \$\{ageInMonths\} months and \$\{ageInMonthsRemain\} days old.\newline%
+%
+\begin{itemize}%
+\item%
+\textit{note\newline%
+}%
+\end{itemize}%
+\textbf{displayAgeAdult: \$\{isAdult1\} = '1'\newline%
+}%
+Question: ADULT was \$\{ageInYears\} years old.\newline%
+%
+\begin{itemize}%
+\item%
+\textit{note\newline%
+}%
+\end{itemize}%
+\textbf{age\_group: \$\{Id10020\} != 'yes' or \$\{Id10022\} != 'yes'\newline%
+}%
+Question: What age group corresponds to the deceased?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{neonate\newline%
+ child\newline%
+ adult\newline%
+}%
+\end{itemize}%
+\textbf{age\_neonate\_days: \$\{age\_group\} = 'neonate'\newline%
+}%
+Question: Enter neonate's age in days:\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{age\_neonate\_hours: \$\{age\_group\} = 'neonate'\newline%
+}%
+Question: Enter neonate's age in hours:\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{age\_neonate\_minutes: \$\{age\_group\} = 'neonate'\newline%
+}%
+Question: Enter neonate's age in minutes:\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{age\_child\_unit: \$\{age\_group\} = 'child'\newline%
+}%
+Question: Enter child's age in:\newline%
+%
+\begin{itemize}%
+\item%
+\textit{days\newline%
+ months\newline%
+ years\newline%
+}%
+\end{itemize}%
+\textbf{age\_child\_days: \$\{age\_child\_unit\} = 'days'\newline%
+}%
+Question: Enter child's age in days:\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{age\_child\_months: \$\{age\_child\_unit\} = 'months'\newline%
+}%
+Question: Enter child's age in months:\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{age\_child\_years: \$\{age\_child\_unit\} = 'years'\newline%
+}%
+Question: Enter child's age in years:\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{age\_adult: \$\{age\_group\} = 'adult'\newline%
+}%
+Question: Enter adult's age in years:\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{isNeonatal2: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{isChild2: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{isAdult2: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{isNeonatal: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{isChild: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{isAdult: \newline%
+}%
+Question: \newline%
+%
+\begin{itemize}%
+\item%
+\textit{calculate\newline%
+}%
+\end{itemize}%
+\textbf{Id10058: \newline%
+}%
+Question: Where did the deceased die?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{hospital\newline%
+ other\_health\_facility\newline%
+ home\newline%
+ on\_route\_to\_hospital\_or\_facility\newline%
+ other\newline%
+ DK\newline%
+ Ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10051: \newline%
+}%
+Question: Is there a need to collect civil registration data on the deceased?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+}%
+\end{itemize}%
+\textbf{Id10052: (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: What was her/his citizenship/nationality?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{citizen\_at\_birth\newline%
+ naturalized\_citizen\newline%
+ foreign\_national\newline%
+ dk\newline%
+}%
+\end{itemize}%
+\textbf{Id10053: (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: What was her/his ethnicity?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10054: (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: What was her/his place of birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10055: (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: What was her/his place of usual residence? (the place where the person lived most of the year)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10056: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: What was her/his place of normal residence 1 to 5 years before death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10057: (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: Where did death occur? (specify country, province, district, village)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10059: (selected(\$\{Id10051\}, 'yes') and selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: What was her/his marital status?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{single\newline%
+ married\newline%
+ partner\newline%
+ divorced\newline%
+ widowed\newline%
+ too\_young\_to\_be\_married\newline%
+ DK\newline%
+ Ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10060: (selected(\$\{isAdult\}, '1')) and (\$\{Id10059\} = 'married' or \$\{Id10059\} = 'divorced' or \$\{Id10059\} = 'widowed')\newline%
+}%
+Question: What was the date of marriage?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{date\newline%
+}%
+\end{itemize}%
+\textbf{Id10061: (selected(\$\{isChild\}, '1') or selected(\$\{isNeonatal\}, '1')) and (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: What was the name of the father?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10062: (selected(\$\{isChild\}, '1') or selected(\$\{isNeonatal\}, '1')) and (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: What was the name of the mother?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10063: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: What was her/his highest level of schooling?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{no\_formal\_education\newline%
+ primary\_school\newline%
+ secondary\_school\newline%
+ higher\_than\_secondary\_school\newline%
+ DK\newline%
+ Ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10064: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: Was (s)he able to read and write?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10065: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: What was her/his economic activity status in year prior to death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{mainly\_unemployed\newline%
+ mainly\_employed\newline%
+ home{-}maker\newline%
+ pensioner\newline%
+ student\newline%
+ other\newline%
+ DK\newline%
+ Ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10066: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and (selected(\$\{Id10051\}, 'yes'))\newline%
+}%
+Question: What was her/his occupation, that is, what kind of work did (s)he mainly do?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10069: \newline%
+}%
+Question: Is there a need to collect civil registration numbers on the deceased?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+}%
+\end{itemize}%
+\textbf{Id10070: selected(\$\{Id10069\}, 'yes')\newline%
+}%
+Question: Death registration number/certificate\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10071: selected(\$\{Id10069\}, 'yes')\newline%
+}%
+Question: Date of registration\newline%
+%
+\begin{itemize}%
+\item%
+\textit{date\newline%
+}%
+\end{itemize}%
+\textbf{Id10072: selected(\$\{Id10069\}, 'yes')\newline%
+}%
+Question: Place of registration\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10073: selected(\$\{Id10069\}, 'yes')\newline%
+}%
+Question: National identification number of deceased\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10077: \newline%
+}%
+Question: Did (s)he suffer from any injury or accident that led to her/his death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10079: \newline%
+}%
+Question: Was it a road traffic accident?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10080: selected(\$\{Id10079\}, 'yes')\newline%
+}%
+Question: What was her/his role in the road traffic accident?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{pedestrian\newline%
+ in\_car\_or\_light\_vehicle\newline%
+ in\_bus\_or\_heavy\_vehicle\newline%
+ on\_a\_motorcycle\newline%
+ on\_a\_pedal\_cycle\newline%
+ other\newline%
+}%
+\end{itemize}%
+\textbf{Id10081: selected(\$\{Id10079\}, 'yes')\newline%
+}%
+Question: What was the counterpart that was hit during the road traffic accident?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{pedestrian\newline%
+ stationary\_object\newline%
+ car\_or\_light\_vehicle\newline%
+ bus\_or\_heavy\_vehicle\newline%
+ motorcycle\newline%
+ pedal\_cycle\newline%
+ other\newline%
+}%
+\end{itemize}%
+\textbf{Id10082: not(selected(\$\{Id10079\}, 'yes'))\newline%
+}%
+Question: Was (s)he injured in a non{-}road transport accident?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10083: \newline%
+}%
+Question: Was (s)he injured in a fall?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10084: \newline%
+}%
+Question: Was there any poisoning?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10085: \newline%
+}%
+Question: Did (s)he die of drowning?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10086: \newline%
+}%
+Question: Was (s)he injured by a bite or sting by venomous animal?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10087: not(selected(\$\{Id10086\}, 'yes'))\newline%
+}%
+Question: Was (s)he injured by an animal or insect (non{-}venomous)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10088: selected(\$\{Id10087\}, 'yes') or selected(\$\{Id10086\}, 'yes')\newline%
+}%
+Question: What was the animal/insect?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{dog\newline%
+ snake\newline%
+ insect\_or\_scorpion\newline%
+ other\newline%
+ DK\newline%
+}%
+\end{itemize}%
+\textbf{Id10089: \newline%
+}%
+Question: Was (s)he injured by burns/fire?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10090: \newline%
+}%
+Question: Was (s)he subject to violence (suicide, homicide, abuse)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10091: \newline%
+}%
+Question: Was (s)he injured by a fire arm?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10092: \newline%
+}%
+Question: Was (s)he stabbed, cut or pierced?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10093: \newline%
+}%
+Question: Was (s)he strangled?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10094: \newline%
+}%
+Question: Was (s)he injured by a blunt force?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10095: \newline%
+}%
+Question: Was (s)he injured by a force of nature?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10096: \newline%
+}%
+Question: Was it electrocution?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10097: \newline%
+}%
+Question: Did (s)he encounter any other injury?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10098: \newline%
+}%
+Question: Was the injury accidental?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10099: \$\{ageInYears\} >= 10\newline%
+}%
+Question: Was the injury or accident self{-}inflicted?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10100: \newline%
+}%
+Question: Was the injury or accident intentionally inflicted by someone else?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10104: \newline%
+}%
+Question: Did the baby ever cry?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10105: selected(\$\{Id10104\}, 'yes') or selected(\$\{Id10104\}, 'dk')\newline%
+}%
+Question: Did the baby cry immediately after birth, even if only a little bit?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10106: selected(\$\{Id10105\}, 'yes')\newline%
+}%
+Question: How many minutes after birth did the baby first cry? (use 999 for never)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10107: selected(\$\{Id10104\}, 'yes') or selected(\$\{Id10104\}, 'dk')\newline%
+}%
+Question: Did the baby stop being able to cry?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10108: selected(\$\{Id10107\}, 'yes')\newline%
+}%
+Question: How many hours before death did the baby stop crying?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10109: \newline%
+}%
+Question: Did the baby ever move?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10110: \newline%
+}%
+Question: Did the baby ever breathe?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10111: not(selected(\$\{Id10110\}, 'no'))\newline%
+}%
+Question: Did the baby breathe immediately after birth, even a little?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10112: not(selected(\$\{Id10110\}, 'no'))\newline%
+}%
+Question: Did the baby have a breating problem?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10113: not(selected(\$\{Id10110\}, 'no'))\newline%
+}%
+Question: Was the baby given assistance to breathe at birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10114: (selected(\$\{Id10104\}, 'no')) and (selected(\$\{Id10109\}, 'no')) and (selected(\$\{Id10110\}, 'no'))\newline%
+}%
+Question: If the baby didn't show any sign of life, was it born dead?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10115: \newline%
+}%
+Question: Were there any bruises or signs of injury on baby's body after the birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10116: selected(\$\{Id10114\}, 'yes')\newline%
+}%
+Question: Was the baby’s body soft, pulpy and discoloured and the skin peeling away?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10351: (selected(\$\{Id10114\}, 'no') and selected(\$\{isNeonatal\}, '1'))\newline%
+}%
+Question: How old was the baby when the fatal illness started?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10408: (selected(\$\{Id10114\}, 'no') and selected(\$\{isNeonatal\}, '1'))\newline%
+}%
+Question: Before the illness that led to death, was the baby/the child growing normally?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{illdurnote: \newline%
+}%
+Question: For how long was (s)he ill before death? \newline%
+%
+\begin{itemize}%
+\item%
+\textit{note\newline%
+}%
+\end{itemize}%
+\textbf{Id10120: \newline%
+}%
+Question: Days\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10122: \newline%
+}%
+Question: Weeks\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10121: \newline%
+}%
+Question: Months\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10123: not(selected(\$\{Id10114\}, 'yes'))\newline%
+}%
+Question: Did (s)he die suddenly?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10125: \newline%
+}%
+Question: Was there any diagnosis by a health professional of tuberculosis?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10126: \newline%
+}%
+Question: Was the HIV test ever positive?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10127: \newline%
+}%
+Question: Was there any diagnosis by a health professional of AIDS?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10128: \newline%
+}%
+Question: Did (s)he have a recent positive test by a health professional for malaria?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10129: not(selected(\$\{Id10128\}, 'yes'))\newline%
+}%
+Question: Did (s)he have a recent negative test by a health professional for malaria?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10130: \newline%
+}%
+Question: Was there any diagnosis by a health professional of dengue fever?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10131: \newline%
+}%
+Question: Was there any diagnosis by a health professional of measles?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10132: not(selected(\$\{isChild\}, '1'))\newline%
+}%
+Question: Was there any diagnosis by a health professional of high blood pressure?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10133: \newline%
+}%
+Question: Was there any diagnosis by a health professional of heart disease?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10134: \newline%
+}%
+Question: Was there any diagnosis by a health professional of diabetes?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10135: \newline%
+}%
+Question: Was there any diagnosis by a health professional of asthma?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10136: \newline%
+}%
+Question: Was there any diagnosis by a health professional of epilepsy?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10137: \newline%
+}%
+Question: Was there any diagnosis by a health professional of cancer?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10138: selected(\$\{isAdult\}, '1')\newline%
+}%
+Question: Was there any diagnosis by a health professional of Chronic Obstructive Pulmonary Disease (COPD)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10139: selected(\$\{isAdult\}, '1')\newline%
+}%
+Question: Was there any diagnosis by a health professional of dementia?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10140: selected(\$\{isAdult\}, '1')\newline%
+}%
+Question: Was there any diagnosis by a health professional of depression?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10141: selected(\$\{isAdult\}, '1')\newline%
+}%
+Question: Was there any diagnosis by a health professional of stroke?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10142: \newline%
+}%
+Question: Was there any diagnosis by a health professional of sickle cell disease?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10143: \newline%
+}%
+Question: Was there any diagnosis by a health professional of kidney disease?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10144: \newline%
+}%
+Question: Was there any diagnosis by a health professional of liver disease?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10147: \newline%
+}%
+Question: Did (s)he have a fever?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10148: selected(\$\{Id10147\}, 'yes')\newline%
+}%
+Question: How many days did the fever last?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10149: selected(\$\{Id10147\}, 'yes')\newline%
+}%
+Question: Did the fever continue until death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10150: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10147\}, 'yes')\newline%
+}%
+Question: How severe was the fever?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{mild\newline%
+ moderate\newline%
+ severe\newline%
+}%
+\end{itemize}%
+\textbf{Id10151: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10147\}, 'yes')\newline%
+}%
+Question: What was the pattern of the fever?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{continuous\newline%
+ on\_and\_off\newline%
+ nightly\newline%
+ DK\newline%
+ Ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10152: \newline%
+}%
+Question: Did (s)he have night sweats?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10153: \newline%
+}%
+Question: Did (s)he have a cough?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10154: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10153\}, 'yes')\newline%
+}%
+Question: For how many days did (s)he have a cough?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10155: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10153\}, 'yes')\newline%
+}%
+Question: Was the cough productive, with sputum?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10156: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10153\}, 'yes')\newline%
+}%
+Question: Was the cough very severe?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10157: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10153\}, 'yes')\newline%
+}%
+Question: Did (s)he cough up blood?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10158: ((selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10153\}, 'yes')) or (selected(\$\{isNeonatal\}, '1') and  selected(\$\{Id10114\}, 'no'))\newline%
+}%
+Question: Did (s)he make a whooping sound when coughing?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10159: \newline%
+}%
+Question: Did (s)he have any difficulty breathing?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10161: \newline%
+}%
+Question: For how many days did the difficulty breathing last?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10162: selected(\$\{isAdult\}, '1')\newline%
+}%
+Question: For how many months did the difficulty breathing last?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10163: selected(\$\{isAdult\}, '1')\newline%
+}%
+Question: For how many years did the difficulty breathing last?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10165: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10159\}, 'yes')\newline%
+}%
+Question: Was the difficulty continuous or on and off?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{continuous\newline%
+ on\_and\_off\newline%
+ DK\newline%
+ Ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10166: \newline%
+}%
+Question: During the illness that led to death, did (s)he have fast breathing?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10167: selected(\$\{Id10166\}, 'yes')\newline%
+}%
+Question: For how many days did the fast breathing last?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10168: \newline%
+}%
+Question: Did (s)he have breathlessness?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10169: selected(\$\{Id10168\}, 'yes')\newline%
+}%
+Question: For how many days did (s)he have breathlessness?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10170: selected(\$\{isAdult\}, '1') and selected(\$\{Id10168\}, 'yes')\newline%
+}%
+Question: Was (s)he unable to carry out daily routines due to breathlessness?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10171: selected(\$\{isAdult\}, '1') and selected(\$\{Id10168\}, 'yes')\newline%
+}%
+Question: Was (s)he breathless while lying flat?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10172: (selected(\$\{isNeonatal\}, '1') or selected(\$\{isChild\}, '1'))\newline%
+}%
+Question: Did you see the lower chest wall/ribs being pulled in as the child breathed in?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10173: \newline%
+}%
+Question: During the illness that led to death did his/her breathing sound like any of the following:\newline%
+%
+\begin{itemize}%
+\item%
+\textit{stridor\newline%
+ grunting\newline%
+ wheezing\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10174: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) \newline%
+}%
+Question: Did (s)he have chest pain?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10175: (selected(\$\{isAdult\}, '1')) and selected(\$\{Id10174\}, 'yes')\newline%
+}%
+Question: Was the chest pain severe?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10176: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10174\}, 'yes')\newline%
+}%
+Question: How many days before death did (s)he have chest pain?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10178: \newline%
+}%
+Question: How many minutes did the pain last?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10179: \newline%
+}%
+Question: How many hours did the pain last?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10181: \newline%
+}%
+Question: Did (s)he have more frequent loose or liquid stools than usual?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10182: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10181\}, 'yes')\newline%
+}%
+Question: For how many days did (s)he have frequent loose or liquid stools?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10183: (selected(\$\{isChild\}, '1') or selected(\$\{isNeonatal\}, '1')) and selected(\$\{Id10181\}, 'yes')\newline%
+}%
+Question: How many stools did the baby or child have on the day that loose liquid stools were most frequent?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10184: (selected(\$\{isChild\}, '1') or selected(\$\{isNeonatal\}, '1')) and selected(\$\{Id10181\}, 'yes')\newline%
+}%
+Question: How many days before death did the frequent loose or liquid stools start?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10185: (selected(\$\{isChild\}, '1')) and selected(\$\{Id10181\}, 'yes')\newline%
+}%
+Question: Did the frequent loose or liquid stools continue until death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10186: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) or (selected(\$\{Id10181\}, 'yes') and selected(\$\{isNeonatal\}, '1'))\newline%
+}%
+Question: At any time during the final illness was there blood in the stools?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10187: ((selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10186\}, 'yes'))\newline%
+}%
+Question: Was there blood in the stool up until death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10188: \newline%
+}%
+Question: Did (s)he vomit?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10189: \newline%
+}%
+Question: Did (s)he vomit in the week preceding the death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10190: selected(\$\{Id10189\}, 'yes') and selected(\$\{isAdult\}, '1')\newline%
+}%
+Question: For how many days before death did (s)he vomit?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10191: (selected(\$\{Id10189\}, 'yes') and \$\{isNeonatal\} !='1')\newline%
+}%
+Question: Was there blood in the vomit?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10192: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10189\}, 'yes')\newline%
+}%
+Question: Was the vomit black?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10193: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have any belly (abdominal) problem?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10194: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have belly (abdominal) pain?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10195: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10194\}, 'yes')\newline%
+}%
+Question: Was the belly (abdominal) pain severe?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{a\_pain\_how\_long: \newline%
+}%
+Question: For how long before death did (s)he have belly (abdominal) pain?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{note\newline%
+}%
+\end{itemize}%
+\textbf{Id10196: ((selected(\$\{isChild\}, '1')and selected(\$\{Id10195\}, 'yes')) or (selected(\$\{isAdult\}, '1') and selected(\$\{Id10194\}, 'yes')))\newline%
+}%
+Question: Hours\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10197: ((selected(\$\{isChild\}, '1')and selected(\$\{Id10195\}, 'yes')) or (selected(\$\{isAdult\}, '1') and selected(\$\{Id10194\}, 'yes')))\newline%
+}%
+Question: Days\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10197b: ((selected(\$\{isChild\}, '1')and selected(\$\{Id10195\}, 'yes')) or (selected(\$\{isAdult\}, '1') and selected(\$\{Id10194\}, 'yes')))\newline%
+}%
+Question: Weeks\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10198: ((selected(\$\{isChild\}, '1')and selected(\$\{Id10195\}, 'yes')) or (selected(\$\{isAdult\}, '1') and selected(\$\{Id10194\}, 'yes')))\newline%
+}%
+Question: Months\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10199: ((selected(\$\{isChild\}, '1')and selected(\$\{Id10195\}, 'yes')) or (selected(\$\{isAdult\}, '1') and selected(\$\{Id10194\}, 'yes')))\newline%
+}%
+Question: Was the pain in the upper or lower belly (abdomen)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{upper\_abdomen\newline%
+ lower\_abdomen\newline%
+ upper\_lower\_abdomen\newline%
+ DK\newline%
+}%
+\end{itemize}%
+\textbf{Id10200: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) \newline%
+}%
+Question: Did (s)he have a more than usually protruding belly (abdomen)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10201: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10200\}, 'yes')\newline%
+}%
+Question: For how many days did (s)he have a more than usually protruding belly (abdomen)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10202: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10200\}, 'yes')\newline%
+}%
+Question: For how many months did (s)he have a more than usually protruding belly (abdomen)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10203: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10200\}, 'yes')\newline%
+}%
+Question: How rapidly did (s)he develop the protruding belly (abdomen)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{rapidly\newline%
+ slowly\newline%
+}%
+\end{itemize}%
+\textbf{Id10204: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have any mass in the belly (abdomen)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10205: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10204\}, 'yes')\newline%
+}%
+Question: For how many days before death did (s)he have a mass in the belly (abdomen)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10206: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10204\}, 'yes')\newline%
+}%
+Question: For how many months before death did (s)he have a mass in the belly (abdomen)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10207: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have a severe headache?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10208: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have a stiff neck during illness that led to death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10209: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10208\}, 'yes')\newline%
+}%
+Question: For how many days before death did (s)he have stiff neck?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10210: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have a painful neck during the illness that led to death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10211: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10210\}, 'yes')\newline%
+}%
+Question: For how many days before death did (s)he have a painful neck?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10212: selected(\$\{isAdult\}, '1')\newline%
+}%
+Question: Did (s)he have mental confusion?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10213: (selected(\$\{isAdult\}, '1')) and selected(\$\{Id10212\}, 'yes')\newline%
+}%
+Question: For how many months did (s)he have mental confusion?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10214: \newline%
+}%
+Question: Was (s)he unconscious during the illness that lead to death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10215: (selected(\$\{Id10214\}, 'yes') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Was (s)he unconscious for more than 24 hours before death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10216: (selected(\$\{isChild\}, '1') and \$\{Id10215\} !='yes')\newline%
+}%
+Question: How many hours before death did unconsciousness start?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10217: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10215\}, 'yes')\newline%
+}%
+Question: Did the unconsciousness start suddenly, quickly (at least within a single day)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10218: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10215\}, 'yes')\newline%
+}%
+Question: Did the unconsciousness continue until death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10219: \newline%
+}%
+Question: Did (s)he have convulsions?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10220: (selected(\$\{isChild\}, '1')) and selected(\$\{Id10219\}, 'yes')\newline%
+}%
+Question: Did (s)he experience any generalized convulsions or fits during the illness that led to death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10221: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10219\}, 'yes')\newline%
+}%
+Question: For how many minutes did the convulsions last?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10222: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10219\}, 'yes')\newline%
+}%
+Question: Did (s)he become unconscious immediately after the convulsion?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10223: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have any urine problems?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10224: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10223\}, 'yes')\newline%
+}%
+Question: Did (s)he stop urinating?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10225: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10223\}, 'yes')\newline%
+}%
+Question: Did (s)he go to urinate more often than usual?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10226: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10223\}, 'yes')\newline%
+}%
+Question: During the final illness did (s)he ever pass blood in the urine?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10227: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have sores or ulcers anywhere on the body?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10228:  selected(\$\{isAdult\}, '1')\newline%
+}%
+Question: Did (s)he have sores?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10229:  ((selected(\$\{isAdult\}, '1') and selected(\$\{Id10228\}, 'yes')) or (selected(\$\{isChild\}, '1') and selected(\$\{Id10227\}, 'yes')))\newline%
+}%
+Question: Did the sores have clear fluid or pus?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10230: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have an ulcer (pit) on the foot?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10231: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10230\}, 'yes')\newline%
+}%
+Question: Did the ulcer on the foot ooze pus?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10232: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10231\}, 'yes')\newline%
+}%
+Question: For how many days did the ulcer on the foot ooze pus?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10233: \newline%
+}%
+Question: During the illness that led to death, did (s)he have any skin rash?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10234: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10233\}, 'yes')\newline%
+}%
+Question: For how many days did (s)he have the skin rash?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10235: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10233\}, 'yes')\newline%
+}%
+Question: Where was the rash?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{face\newline%
+ trunk\newline%
+ extremities\newline%
+ everywhere\newline%
+}%
+\end{itemize}%
+\textbf{Id10236: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10233\}, 'yes')\newline%
+}%
+Question: Did (s)he have measles rash (use local term)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10237: selected(\$\{isAdult\}, '1') \newline%
+}%
+Question: Did (s)he ever have shingles or herpes zoster?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10238: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: During the illness that led to death, did her/his skin flake off in patches?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10239: (selected(\$\{isNeonatal\}, '1') or selected(\$\{isChild\}, '1'))\newline%
+}%
+Question: During the illness that led to death, did he/she have areas of the skin that turned black?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10240: (selected(\$\{isNeonatal\}, '1') or selected(\$\{isChild\}, '1'))\newline%
+}%
+Question: During the illness that led to death, did he/she have areas of the skin with redness and swelling?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10241: \newline%
+}%
+Question: During the illness that led to death, did (s)he bleed from anywhere?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10242: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10241\}, 'yes')\newline%
+}%
+Question: Did (s)he bleed from the nose, mouth or anus?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10243: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have noticeable weight loss?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10244: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Was (s)he severely thin or wasted?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10245: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: During the illness that led to death, did s/he have a whitish rash inside the mouth or on the tongue?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10246: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have stiffness of the whole body or was unable to open the mouth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10247: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have puffiness of the face?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10248: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10247\}, 'yes')\newline%
+}%
+Question: For how many days did (s)he have puffiness of the face?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10249: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: During the illness that led to death, did (s)he have swollen legs or feet?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10250: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10249\}, 'yes')\newline%
+}%
+Question: How many days did the swelling last?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10251: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10249\}, 'yes')\newline%
+}%
+Question: Did (s)he have both feet swollen?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10252: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have general puffiness all over hi(s)her body?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10253: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have any lumps?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10254: (selected(\$\{isAdult\}, '1')) and selected(\$\{Id10253\}, 'yes')\newline%
+}%
+Question: Did (s)he have any lumps or lesions in the mouth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10255: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10253\}, 'yes')\newline%
+}%
+Question: Did (s)he have any lumps on the neck?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10256: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10253\}, 'yes')\newline%
+}%
+Question: Did (s)he have any lumps on the armpit?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10257: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10253\}, 'yes')\newline%
+}%
+Question: Did (s)he have any lumps on the groin?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10258: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Was (s)he in any way paralysed?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10259: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10258\}, 'yes')\newline%
+}%
+Question: Did s(he have paralysis of only one side of the body?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10260: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10258\}, 'yes')\newline%
+}%
+Question: Which were the limbs or body parts paralysed?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{right\_side\newline%
+ left\_side\newline%
+ lower\_part\_of\_body\newline%
+ upper\_part\_of\_body\newline%
+ one\_leg\_only\newline%
+ one\_arm\_only\newline%
+ whole\_body\newline%
+ other\newline%
+}%
+\end{itemize}%
+\textbf{Id10261: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have difficulty swallowing?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10262: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10261\}, 'yes')\newline%
+}%
+Question: For how many days before death did (s)he have difficulty swallowing?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10263: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10261\}, 'yes')\newline%
+}%
+Question: Was the difficulty with swallowing with solids, liquids, or both?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{solids\newline%
+ liquids\newline%
+ both\newline%
+}%
+\end{itemize}%
+\textbf{Id10264: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he have pain upon swallowing?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10265: \newline%
+}%
+Question: Did (s)he have yellow discoloration of the eyes?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10266: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1')) and selected(\$\{Id10265\}, 'yes')\newline%
+}%
+Question: For how many days did (s)he have the yellow discoloration?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10267: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did her/his hair change in color to a reddish or yellowish color?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10268: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he look pale (thinning/lack of blood) or have pale palms, eyes or nail beds?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10269: (selected(\$\{isChild\}, '1'))\newline%
+}%
+Question: Did (s)he have sunken eyes?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10270: (selected(\$\{isChild\}, '1') or selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Did (s)he drink a lot more water than usual?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10271: (selected(\$\{isNeonatal\}, '1') and \$\{Id10114\}!='yes')or selected(\$\{isChild\}, '1')\newline%
+}%
+Question: Was the baby able to suckle or bottle{-}feed within the first 24 hours after birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10272: (selected(\$\{isNeonatal\}, '1') and \$\{Id10114\}!='yes')or selected(\$\{isChild\}, '1')\newline%
+}%
+Question: Did the baby ever suckle in a normal way?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10273: (selected(\$\{isNeonatal\}, '1') and \$\{Id10114\}!='yes')or selected(\$\{isChild\}, '1')\newline%
+}%
+Question: Did the baby stop suckling?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10274: selected(\$\{Id10273\}, 'yes')\newline%
+}%
+Question: How many days after birth did the baby stop suckling?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10275: (selected(\$\{isNeonatal\}, '1') and \$\{Id10114\}!='yes')or selected(\$\{isChild\}, '1')\newline%
+}%
+Question: Did the baby have convulsions starting within the first 24 hours of life?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10276: (selected(\$\{isNeonatal\}, '1') and \$\{Id10275\}!='yes')\newline%
+}%
+Question: Did the baby have convulsions starting more than 24 hours after birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10277: (selected(\$\{isNeonatal\}, '1') and \$\{Id10114\}!='yes')or selected(\$\{isChild\}, '1')\newline%
+}%
+Question: Did the baby's body become stiff, with the back arched backwards?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10278: (selected(\$\{isNeonatal\}, '1') and \$\{Id10114\}!='yes')or selected(\$\{isChild\}, '1')\newline%
+}%
+Question: During the illness that led to death, did the baby have a bulging or raised fontanelle? (ask only up to 18 months)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10279: ((selected(\$\{isNeonatal\}, '1') or selected(\$\{isChild\}, '1')) and \$\{Id10278\} !='yes' )\newline%
+}%
+Question: During the illness that led to death, did the baby have a sunken fontanelle? (ask only up to 18 months)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10281: ((not(selected(\$\{Id10278\}, 'yes')) and (selected(\$\{isNeonatal\}, '1')) and \$\{Id10114\}!='yes') or selected(\$\{isChild\}, '1'))\newline%
+}%
+Question: During the illness that led to death, did the baby become unresponsive or unconscious?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10282: ((selected(\$\{Id10281\}, 'yes') and (selected(\$\{isNeonatal\}, '1')) and \$\{Id10114\}!='yes') or selected(\$\{isChild\}, '1'))\newline%
+}%
+Question: Did the baby become unresponsive or unconscious soon after birth, within less than 24 hours?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10283: ((selected(\$\{Id10281\}, 'yes') and not(selected(\$\{Id10282\}, 'yes')) and (selected(\$\{isNeonatal\}, '1')) and \$\{Id10114\}!='yes') or selected(\$\{isChild\}, '1'))\newline%
+}%
+Question: Did the baby become unresponsive or unconscious more than 24 hours after birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10284: \newline%
+}%
+Question: During the illness that led to death, did the baby become cold to touch?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10285: selected(\$\{Id10284\}, 'yes')\newline%
+}%
+Question: How many days old was the baby when it started feeling cold to touch?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10286: \newline%
+}%
+Question: During the illness that led to death, did the baby become lethargic, after a period of normal activity?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10287: \newline%
+}%
+Question: Did the baby have redness or pus drainage from the umbilical cord stump?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10288: \newline%
+}%
+Question: During the illness that led to death, did the baby have skin ulcer(s) or pits?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10289: \newline%
+}%
+Question: During the illness that led to death, did the baby have yellow skin, palms (hand) or soles (foot)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10290: \newline%
+}%
+Question: Did the baby or infant appear to be healthy and then just die suddenly?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10294: \newline%
+}%
+Question: Did she have any swelling or lump in the breast?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10295: \newline%
+}%
+Question: Did she have any ulcers (pits) in the breast?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10296: \newline%
+}%
+Question: Did she ever have a period or menstruate?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10297: selected(\$\{Id10296\}, 'yes')\newline%
+}%
+Question: Did she have  vaginal bleeding in between menstrual periods?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10298: selected(\$\{Id10297\}, 'yes')\newline%
+}%
+Question: Was the bleeding excessive?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10299: selected(\$\{Id10296\}, 'yes')\newline%
+}%
+Question: Did her menstrual period stop naturally because of menopause?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10300: selected(\$\{Id10296\}, 'yes')\newline%
+}%
+Question: Did she have vaginal bleeding after cessation of menstruation?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10301: selected(\$\{Id10296\}, 'yes')\newline%
+}%
+Question: Was there excessive vaginal bleeding in the week prior to death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10302: selected(\$\{Id10296\}, 'yes')\newline%
+}%
+Question: At the time of death was her period overdue?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10303: selected(\$\{Id10302\}, 'yes')\newline%
+}%
+Question: For how many weeks had her period been overdue?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10304: \newline%
+}%
+Question: Did she have a sharp pain in her belly (abdomen) shortly before death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10305: \newline%
+}%
+Question: Was she pregnant at the time of death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10306: not(selected(\$\{Id10305\}, 'yes'))\newline%
+}%
+Question: Did she die within 6 weeks of delivery, abortion or miscarriage?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10307: \$\{Id10306\}!='yes' and  \$\{Id10305\}!='yes'\newline%
+}%
+Question: Did this woman die more than 42 days after being pregnant or delivering a baby?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10308: \$\{Id10306\}!='yes' and  \$\{Id10305\}!='yes'\newline%
+}%
+Question: Was this a woman who died less than 1 year after being pregnant or delivering a baby?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10309: (selected(\$\{Id10305\}, 'yes') and \$\{Id10306\} !='yes')\newline%
+}%
+Question: For how many months was she pregnant?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10310: not(selected(\$\{Id10306\}, 'yes'))\newline%
+}%
+Question: Please confirm: When she died, she was NEITHER pregnant NOR had recently been pregnant NOR had recently delivered when she died {-} is that right?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10312: \newline%
+}%
+Question: Did she die during labour or delivery?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10313: not(selected(\$\{Id10312\}, 'yes'))\newline%
+}%
+Question: Did she die after delivering a baby?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10314: selected(\$\{Id10313\}, 'yes')\newline%
+}%
+Question: Did she die within 24 hours after delivery?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10315: \$\{Id10312\}!='yes' and  \$\{Id10314\}!='yes'\newline%
+}%
+Question: Did she die within 6 weeks of childbirth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10316: \newline%
+}%
+Question: Did she give birth to a live baby (within 6 weeks of her death)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10317: \newline%
+}%
+Question: Did she die during or after a multiple pregnancy?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10318: \newline%
+}%
+Question: Was she breastfeeding the child in the days before death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10319: \newline%
+}%
+Question: How many births, including stillbirths, did she/the mother have before this baby?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10320: \$\{Id10319\} != '0'\newline%
+}%
+Question: Had she had any previous Caesarean section?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10321: \newline%
+}%
+Question: During pregnancy, did she suffer from high blood pressure?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10322: \newline%
+}%
+Question: Did she have foul smelling vaginal discharge during pregnancy or after delivery?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10323: \newline%
+}%
+Question: During the last 3 months of pregnancy, did she suffer from convulsions?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10324: \newline%
+}%
+Question: During the last 3 months of pregnancy did she suffer from blurred vision?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10325: \newline%
+}%
+Question: Did bleeding occur while she was pregnant\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10326: selected(\$\{Id10325\}, 'yes')\newline%
+}%
+Question: Was there vaginal bleeding during the first 6 months of pregnancy?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10327: selected(\$\{Id10325\}, 'yes')\newline%
+}%
+Question: Was there vaginal bleeding during the last 3 months of pregnancy but before labour started?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10328: \newline%
+}%
+Question: Did she have excessive bleeding during labour or delivery?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10329: \newline%
+}%
+Question: Did she have excessive bleeding after delivery or abortion?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10330: \newline%
+}%
+Question: Was the placenta completely delivered?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10331: \newline%
+}%
+Question: Did she deliver or try to deliver an abnormally positioned baby?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10332: \newline%
+}%
+Question: For how many hours was she in labour?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10333: \newline%
+}%
+Question: Did she attempt to terminate the pregnancy?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10334: not(selected(\$\{Id10316\}, 'yes'))\newline%
+}%
+Question: Did she recently have a pregnancy that ended in an abortion (spontaneous or induced)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10335: selected(\$\{Id10334\}, 'yes')\newline%
+}%
+Question: Did she die during an abortion?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10336: selected(\$\{Id10334\}, 'yes')\newline%
+}%
+Question: Did she die within 6 weeks of having an abortion?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10337: \newline%
+}%
+Question: Where did she give birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{hospital\newline%
+ other\_health\_facility\newline%
+ home\newline%
+ on\_route\_to\_hospital\_or\_facility\newline%
+ other\newline%
+}%
+\end{itemize}%
+\textbf{Id10338: \newline%
+}%
+Question: Did she receive professional assistance during the delivery?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10339: \newline%
+}%
+Question: Who delivered the baby?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{Doctor\newline%
+ Midwife\newline%
+ Nurse\newline%
+ Relative\newline%
+ Self\_mother\newline%
+ Traditional\_birth\_attendant\newline%
+ Other\newline%
+ DK\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10340: \newline%
+}%
+Question: Did she have an operation to remove her uterus shortly before death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10342: \newline%
+}%
+Question: Was the delivery normal vaginal, without forceps or vacuum?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10343: not(selected(\$\{Id10342\}, 'yes'))\newline%
+}%
+Question: Was the delivery vaginal, with forceps or vacuum?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10344: not(selected(\$\{Id10342\}, 'yes')) and not(selected(\$\{Id10343\}, 'yes'))\newline%
+}%
+Question: Was the delivery a Caesarean section?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10347: ((selected(\$\{isNeonatal\}, '1')) or (selected(\$\{Id10114\}, 'yes')) or (selected(\$\{isAdult\}, '1') and \$\{Id10310\} = 'no') and \$\{Id10019\} = 'female')\newline%
+}%
+Question: Was the baby born more than one month early?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10352: (selected(\$\{isChild\}, '1'))\newline%
+}%
+Question: How many years old was the child when the fatal illness started?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10354: \newline%
+}%
+Question: Was the child part of a multiple  birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10355: selected(\$\{Id10354\}, 'yes')\newline%
+}%
+Question: Was the child the first, second, or later in the birth order?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{first\newline%
+ second\_or\_later\newline%
+}%
+\end{itemize}%
+\textbf{Id10356: \newline%
+}%
+Question: Is the mother still alive?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10357: selected(\$\{Id10356\}, 'no')\newline%
+}%
+Question: Did the mother die during or after the delivery?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{during\_delivery\newline%
+ after\_delivery\newline%
+}%
+\end{itemize}%
+\textbf{Id10358: \newline%
+}%
+Question: How many months after the delivery did the mother die?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10359: \newline%
+}%
+Question: How many days after the delivery did the mother die?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10360: \newline%
+}%
+Question: Where was the deceased born?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{hospital\newline%
+ other\_health\_facility\newline%
+ home\newline%
+ on\_route\_to\_hospital\_or\_facility\newline%
+ other\newline%
+ DK\newline%
+ Ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10361: \newline%
+}%
+Question: Did the mother receive professional assistance during the delivery? (ask only up to 1 year)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10362: \newline%
+}%
+Question: At birth, was the baby of usual size?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10363: not(selected(\$\{Id10362\}, 'yes')) \newline%
+}%
+Question: At birth, was the baby smaller than usual, (weighing under 2.5 kg)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10364: selected(\$\{Id10363\}, 'yes')\newline%
+}%
+Question: At birth, was the baby very much smaller than usual, (weighing under 1 kg)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10365: (not(selected(\$\{Id10363\}, 'yes')) or not(selected(\$\{Id10362\}, 'yes')))\newline%
+}%
+Question: At birth, was the baby larger than usual, (weighing over 4.5 kg)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10366: \newline%
+}%
+Question: What was the weight (in grammes) of the deceased at birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10367: \newline%
+}%
+Question: How many months long was the pregnancy before the child was born? (ask only up to 1 year)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10368: \newline%
+}%
+Question: Were there any complications in the late part of the pregnancy (defined as the last 3 months, before labour)? (ask only up to 1 year)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10369: \newline%
+}%
+Question: Were there any complications during labour or delivery? (ask only up to 1 year)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10370: \newline%
+}%
+Question: Was any part of the baby physically abnormal at time of delivery? (for example: body part too large or too small, additional growth on body)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10371: not(selected(\$\{Id10370\}, 'no'))\newline%
+}%
+Question: Did the baby/ child have a swelling or defect on the back at time of birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10372: not(selected(\$\{Id10370\}, 'no'))\newline%
+}%
+Question: Did the baby/ child have a very large head at time of birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10373: not(selected(\$\{Id10372\}, 'yes') or selected(\$\{Id10370\}, 'no'))\newline%
+}%
+Question: Did the baby/ child have a very small head at time of birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10376: \newline%
+}%
+Question: Was the baby moving in the last few days before the birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10377: \newline%
+}%
+Question: Did the baby stop moving in the womb before labour started?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10379: \newline%
+}%
+Question: How many days before labour did you or the mother last feel the baby move? (maybe the respondent or health worker had examined the mother)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10380: \newline%
+}%
+Question: How many hours before labour did you or the mother last feel the baby move? (maybe the respondent or health worker had examined the mother)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10382: \newline%
+}%
+Question: How many hours did labour and delivery take?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10383: \newline%
+}%
+Question: Was the baby born 24 hours or more after the water broke?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10384: \newline%
+}%
+Question: Was the liquor foul smelling?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10385: \newline%
+}%
+Question: What was the colour of the liquor when the water broke?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{green\_or\_brown\newline%
+ clear\newline%
+ other\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10387: \newline%
+}%
+Question: Was the delivery normal vaginal, without forceps or vacuum?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10388: not(selected(\$\{Id10387\}, 'yes'))\newline%
+}%
+Question: Was the delivery vaginal, with forceps or vacuum?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10389: not(selected(\$\{Id10387\}, 'yes')) and not(selected(\$\{Id10388\}, 'yes'))\newline%
+}%
+Question: Was the delivery a Caesarean section?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10391: \newline%
+}%
+Question: Did you/the mother receive any vaccinations since reaching adulthood including during this pregnancy?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10392: selected(\$\{Id10391\}, 'yes')\newline%
+}%
+Question: How many doses?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10393: selected(\$\{Id10391\}, 'yes')\newline%
+}%
+Question: Did the mother receive tetanus toxoid (TT) vaccine?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10394: \newline%
+}%
+Question: How many births, including stillbirths, did the baby's mother have before this baby?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10395: 1\newline%
+}%
+Question: During labour, did the baby's mother suffer from fever?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10396: \newline%
+}%
+Question: During the last 3 months of pregnancy, labour or delivery, did the baby's mother suffer from high blood pressure?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10397: \newline%
+}%
+Question: Did the baby's mother have diabetes mellitus?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10398: \newline%
+}%
+Question: Did the baby's mother have foul smelling vaginal discharge during pregnancy or after delivery?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10399: \newline%
+}%
+Question: During the last 3 months of pregnancy, labour or delivery, did the baby's mother suffer from convulsions?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10400: \newline%
+}%
+Question: During the last 3 months of pregnancy did the baby's mother suffer from blurred vision?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10401: \newline%
+}%
+Question: Did the baby's mother have severe anemia?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10402: \newline%
+}%
+Question: Did the baby's mother have vaginal bleeding during the last 3 months of pregnancy but before labour started?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10403: \newline%
+}%
+Question: Did the baby's bottom, feet, arm or hand come out of the vagina before its head?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10404: \newline%
+}%
+Question: Was the umbilical cord wrapped more than once around the neck of the child at birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10405: \newline%
+}%
+Question: Was the umbilical cord delivered first?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10406: \newline%
+}%
+Question: Was the baby blue in colour at birth?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10411: \newline%
+}%
+Question: Did (s)he drink alcohol?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10412: \newline%
+}%
+Question: Did (s)he use tobacco?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10413: \newline%
+}%
+Question: Did (s)he smoke tobacco (cigarette, cigar, pipe, etc.)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10414: selected(\$\{Id10413\}, 'yes')\newline%
+}%
+Question: What kind of tobacco did (s)he use ?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{cigarettes\newline%
+ pipe\newline%
+ chewing\_tobacco\newline%
+ local\_form\_of\_tobacco\newline%
+ other\newline%
+}%
+\end{itemize}%
+\textbf{Id10415: selected(\$\{Id10413\}, 'yes')\newline%
+}%
+Question: How many cigarettes did (s)he smoke daily?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{integer\newline%
+}%
+\end{itemize}%
+\textbf{Id10418: \newline%
+}%
+Question: Did (s)he receive any treatment for the illness that led to death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10419: selected(\$\{Id10418\}, 'yes')\newline%
+}%
+Question: Did (s)he receive oral rehydration salts?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10420: selected(\$\{Id10418\}, 'yes')\newline%
+}%
+Question: Did (s)he receive (or need) intravenous fluids (drip) treatment?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10421: selected(\$\{Id10418\}, 'yes')\newline%
+}%
+Question: Did (s)he receive (or need) a blood transfusion?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10422: selected(\$\{Id10418\}, 'yes')\newline%
+}%
+Question: Did (s)he receive (or need) treatment/food through a tube passed through the nose?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10423: selected(\$\{Id10418\}, 'yes')\newline%
+}%
+Question: Did (s)he receive (or need) injectable antibiotics?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10424: selected(\$\{Id10418\}, 'yes')\newline%
+}%
+Question: Did (s)he receive (or need) antiretroviral therapy (ART)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10425: selected(\$\{Id10418\}, 'yes')\newline%
+}%
+Question: Did (s)he have (or need) an operation for the illness?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10426: (selected(\$\{Id10418\}, 'yes') and \$\{isNeonatal\} !='1') and selected(\$\{Id10425\}, 'yes')\newline%
+}%
+Question: Did (s)he have the operation within 1 month before death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10427: (selected(\$\{isAdult\}, '1') or selected(\$\{isChild\}, '1')) \newline%
+}%
+Question: Was (s)he discharged from hospital very ill?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10428: (selected(\$\{isNeonatal\}, '1') or selected(\$\{isChild\}, '1'))\newline%
+}%
+Question: Had (s)he received immunization?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10429: (selected(\$\{isNeonatal\}, '1') or selected(\$\{isChild\}, '1')) and selected(\$\{Id10428\}, 'yes')\newline%
+}%
+Question: Do you have the child's vaccination card?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10430: (selected(\$\{isNeonatal\}, '1') or selected(\$\{isChild\}, '1')) and selected(\$\{Id10429\}, 'yes')\newline%
+}%
+Question: Can I see the vaccination card (note the vaccines the child received)?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10431: (selected(\$\{isNeonatal\}, '1') or selected(\$\{isChild\}, '1')) and selected(\$\{Id10430\}, 'yes')\newline%
+}%
+Question: Note vaccines here\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10432: \newline%
+}%
+Question: Was care sought outside the home while (s)he had this illness?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10433: selected(\$\{Id10432\}, 'yes')\newline%
+}%
+Question: Where or from whom did you seek care?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{traditional\_healer\newline%
+ homeopath\newline%
+ religious\_leader\newline%
+ government\_hospital\newline%
+ government\_health\_center\_or\_clinic\newline%
+ private\_hospital\newline%
+ community\_based\_practitionerinsystem\newline%
+ trained\_birth\_attendant\newline%
+ private\_physician\newline%
+ relative\_friend\newline%
+ pharmacy\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10434: selected(\$\{Id10432\}, 'yes')\newline%
+}%
+Question: Record the name and address of any hospital, health center or clinic where care was sought\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10435: (selected(\$\{isNeonatal\}, '1') or selected(\$\{isAdult\}, '1') or (selected(\$\{isChild\}, '1') and selected(\$\{Id10432\}, 'yes')))\newline%
+}%
+Question: Did a health care worker tell you the cause of death?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10436: selected(\$\{Id10435\}, 'yes')\newline%
+}%
+Question: What did the health care worker say?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10437: (selected(\$\{isNeonatal\}, '1') or selected(\$\{isAdult\}, '1') or (selected(\$\{isChild\}, '1') and selected(\$\{Id10432\}, 'yes')))\newline%
+}%
+Question: Do you have any health records that belonged to the deceased?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10438: selected(\$\{Id10437\}, 'yes')\newline%
+}%
+Question: Can I see the health records?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10439: selected(\$\{Id10438\}, 'yes')\newline%
+}%
+Question: Record the date of the most recent (last) visit\newline%
+%
+\begin{itemize}%
+\item%
+\textit{date\newline%
+}%
+\end{itemize}%
+\textbf{Id10440: (selected(\$\{Id10438\}, 'yes') and selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Record the date of the last but one (second last) visit\newline%
+%
+\begin{itemize}%
+\item%
+\textit{date\newline%
+}%
+\end{itemize}%
+\textbf{Id10441: (selected(\$\{Id10438\}, 'yes') and selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Record the date of the last note on the health records\newline%
+%
+\begin{itemize}%
+\item%
+\textit{date\newline%
+}%
+\end{itemize}%
+\textbf{Id10442: (selected(\$\{Id10438\}, 'yes') and selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Record the weight (in kilogrammes) written at the most recent (last) visit\newline%
+%
+\begin{itemize}%
+\item%
+\textit{\newline%
+}%
+\end{itemize}%
+\textbf{Id10443: (selected(\$\{Id10438\}, 'yes') and selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Record the weight (in kilogrammes) written at the last but one (second last) visit\newline%
+%
+\begin{itemize}%
+\item%
+\textit{\newline%
+}%
+\end{itemize}%
+\textbf{Id10444: (selected(\$\{Id10438\}, 'yes') and selected(\$\{isAdult\}, '1'))\newline%
+}%
+Question: Transcribe the last note on the health records\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10445: ((selected(\$\{isNeonatal\}, '1')) or (selected(\$\{isChild\}, '1') and selected(\$\{Id10432\}, 'yes')))\newline%
+}%
+Question: Has the deceased’s (biological) mother ever been tested for HIV?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10446: ((selected(\$\{isNeonatal\}, '1')) or (selected(\$\{isChild\}, '1') and selected(\$\{Id10432\}, 'yes')))\newline%
+}%
+Question: Has the deceased’s (biological) mother ever been told she had HIV/AIDS by a health worker?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10450: \newline%
+}%
+Question: In the final days before death, did s/he travel to a hospital or health facility?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10451: selected(\$\{Id10450\}, 'yes')\newline%
+}%
+Question: Did (s)he use motorised transport to get to the hospital or health facility?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10452: selected(\$\{Id10450\}, 'yes')\newline%
+}%
+Question: Were there any problems during admission to the hospital or health facility?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10453: selected(\$\{Id10450\}, 'yes')\newline%
+}%
+Question: Were there any problems with the way (s)he was treated (medical treatment, procedures, interpersonal attitudes, respect, dignity) in the hospital or health facility?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10454: selected(\$\{Id10450\}, 'yes')\newline%
+}%
+Question: Were there any problems getting medications, or diagnostic tests in the hospital or health facility?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10455: \newline%
+}%
+Question: Does it take more than 2 hours to get to the nearest hospital or health facility from the deceased's household?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10456: \newline%
+}%
+Question: In the final days before death, were there any doubts about whether medical care was needed?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10457: \newline%
+}%
+Question: In the final days before death, was traditional medicine used?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10458: \newline%
+}%
+Question: In the final days before death, did anyone use a telephone or cell phone to call for help?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10459: \newline%
+}%
+Question: Over the course of illness, did the total costs of care and treatment prohibit other household payments?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10462: \newline%
+}%
+Question: Was a death certificate issued?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10463: selected(\$\{Id10462\}, 'yes')\newline%
+}%
+Question: Can I see the death certificate?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{yes\newline%
+ no\newline%
+ dk\newline%
+ ref\newline%
+}%
+\end{itemize}%
+\textbf{Id10464: selected(\$\{Id10463\}, 'yes')\newline%
+}%
+Question: Record the immediate cause of death from the certificate (line 1a)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10465: selected(\$\{Id10463\}, 'yes')\newline%
+}%
+Question: Duration (Ia):\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10466: selected(\$\{Id10463\}, 'yes')\newline%
+}%
+Question: Record the first antecedent cause of death from the certificate  (line 1b)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10467: selected(\$\{Id10463\}, 'yes')\newline%
+}%
+Question: Duration (Ib):\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10468: selected(\$\{Id10463\}, 'yes')\newline%
+}%
+Question: Record the second antecedent cause of death from the certificate (line 1c)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10469: selected(\$\{Id10463\}, 'yes')\newline%
+}%
+Question: Duration (Ic):\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10470: selected(\$\{Id10463\}, 'yes')\newline%
+}%
+Question: Record the third antecedent cause of death from the certificate (line 1d)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10471: selected(\$\{Id10463\}, 'yes')\newline%
+}%
+Question: Duration (Id):\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10472: selected(\$\{Id10463\}, 'yes')\newline%
+}%
+Question: Record the contributing cause(s) of death from the certificate (part 2)\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10473: selected(\$\{Id10463\}, 'yes')\newline%
+}%
+Question: Duration (part2):\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10476: \newline%
+}%
+Question: NARRATIVE DESCRIPTION\newline%
+%
+\begin{itemize}%
+\item%
+\textit{text\newline%
+}%
+\end{itemize}%
+\textbf{Id10477: selected(\$\{isAdult\}, '1')\newline%
+}%
+Question: Are there any of the following words of interest mentioned in the above narrative?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{Chronic\_kidney\_disease\newline%
+ Dialysis\newline%
+ Fever\newline%
+ Heart\_attack\newline%
+ Heart\_problem\newline%
+ Jaundice\newline%
+ Liver\_failure\newline%
+ Malaria\newline%
+ Pneumonia\newline%
+ Renal\_kidney\_failure\newline%
+ Suicide\newline%
+ None\newline%
+ dk\newline%
+}%
+\end{itemize}%
+\textbf{Id10478: selected(\$\{isChild\}, '1')\newline%
+}%
+Question: Are there any of the following words of interest mentioned in the above narrative?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{abdomen\newline%
+ cancer\newline%
+ dehydration\newline%
+ dengue\newline%
+ diarrhea\newline%
+ fever\newline%
+ heart\_problem\newline%
+ jaundice\newline%
+ pneumonia\newline%
+ rash\newline%
+ None\newline%
+ dk\newline%
+}%
+\end{itemize}%
+\textbf{Id10479: selected(\$\{isNeonatal\}, '1')\newline%
+}%
+Question: Are there any of the following words of interest mentioned in the above narrative?\newline%
+%
+\begin{itemize}%
+\item%
+\textit{asphyxia\newline%
+ incubator\newline%
+ lung\_problem\newline%
+ pneumonia\newline%
+ preterm\_delivery\newline%
+ respiratory\_distress\newline%
+ None\newline%
+ dk\newline%
+}%
+\end{itemize}%
+\textbf{Id10481: \newline%
+}%
+Question: Time at end of interview\newline%
+%
+\begin{itemize}%
+\item%
+\textit{time\newline%
+}%
+\end{itemize}%
+\end{document}
